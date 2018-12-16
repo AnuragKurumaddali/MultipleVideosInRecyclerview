@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_Trailer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Trailer 01"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+
+    <!--<RelativeLayout
+        android:id="@+id/fl_VideoViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_Trailer">-->
+
+        <VideoView
+            android:id="@+id/videoViewTrailer"
+            android:layout_width="1200px"
+            android:layout_height="600px"
+            android:layout_gravity="center" />
+
+    <!--<ImageView
+        android:layout_width="1200px"
+        android:layout_height="600px"
+        android:layout_gravity="center"
+        android:background="@color/black"/>-->
+
+    <!--</RelativeLayout>-->
+
+    <LinearLayout
+        android:id="@+id/iv_PlayIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/play_selector"
+        android:orientation="vertical"/>
+
+</RelativeLayout>

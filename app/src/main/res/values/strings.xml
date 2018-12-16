@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Multiple Videos In Recyclerview</string>
+
+    <string name="trailer_01">Trailer 01</string>
+    <string name="trailer_02">Trailer 02</string>
+    <string name="trailer_03">Trailer 03</string>
+</resources>
